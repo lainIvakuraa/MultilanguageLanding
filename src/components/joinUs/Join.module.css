@@ -1,0 +1,100 @@
+.Join {
+    background: url('../../style/img/chinese.png');
+    background-size: cover;
+    width: 100%;
+    padding-bottom:1px;
+}
+
+.JoinUs {
+    color: white;
+    margin: 25px 0;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height:650px;
+}
+.JoinUs p {
+    font-size:35px;
+    
+}
+
+.numbers {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.line {
+    border-bottom: 3px solid white;
+    width: 50%;
+    transform: rotate(-65deg);
+    transform-origin: right;
+}
+.incoming {
+    display:flex;
+    flex-direction:column;
+    padding-left:30px;   
+}
+.incoming h2 {
+    font-size:60px;
+}
+.incoming p {
+    font-size:25px;
+}
+.JoinUs h1 {
+    font-size: 100px;
+}
+
+.Direction {
+    background-color: white;
+    height: 100%;
+    padding: 15px;
+}
+
+.Choose {
+    padding-top: 20px;
+    margin-bottom: 50px;
+    color: rgb(9,22,88);
+}
+
+.Columns {
+    height: 60%;
+}
+
+.Columns * {
+    margin: 30px 0px;
+}
+.Columns label {
+    display:inline-block;
+    text-align: left;
+}
+
+.Button {
+    padding: 50px;
+}
+@media only screen and (max-width: 1000px) {
+    .Direction {
+      width:100%;
+    }
+  }
+  @media only screen and (max-width: 560px) {
+    .JoinUs {
+        height:auto;
+    }
+    .JoinUs p {
+      text-align: center;
+    }
+    .numbers {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .incoming {
+        width:100%;
+        justify-content: center;
+    }
+    .line {
+        display:none;
+    }
+  }

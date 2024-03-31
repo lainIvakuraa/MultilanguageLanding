@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.site {
+    width: 100%;
+}
+
+.site-footer {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-top {
+    background-image: url(src/background.png);
+    background-size: contain;
+    height: auto;
+}
+
+.site-text {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    color: #fff;
+}
+
+.site-text>.left>.top-title {
+    font-size: 22px;
+}
+
+.site-text>.left>.top-subtitle {
+    font-size: 16px;
+}
+
+.site-text>.right {
+    margin: auto;
+    margin-right: 0;
+}
+
+.right>.site-btn {
+    display: inline-block;
+    color: #35CFFF;
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 50px;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    line-height: 20px;
+    transition: 0.3s;
+}
+
+.right>.site-btn:hover {
+    background-color: #35CFFF;
+    color: #fff;
+}
+
+.site-bot {
+    background-color: #1C2242;
+    color: #fff;
+}
+
+.site-bot-col a {
+    color: #fff;
+}
+
+.bot-row {
+    display: flex;
+    padding: 75px 0 50px 0;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.edge {
+    width: auto;
+}
+
+.middle {
+    margin: 0 50px;
+    width: 50%;
+}
+
+.circle-social {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.circle {
+    background-color: hsl(206, 100%, 20%);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.ytb:hover {
+    background-color: #ff0000;
+}
+
+.tg:hover {
+    background-color: #0088cc;
+}
+
+.vk:hover {
+    background-color: #0077ff;
+}
+
+.circle-social>.tg {
+    margin: 0 30px;
+}
+
+.social {
+    display: block;
+    text-align: center;
+    height: 60px;
+}
+
+.social>img {
+    position: relative;
+    top: 10px;
+    width: 40px;
+}
+
+.site-tg>img {
+    right: 2.5px;
+}
+
+.about {
+    font-size: 18px;
+}
+
+.about>h4 {
+    font-size: 26px;
+    margin: 0;
+}
+
+.site-bot-copyright {
+    border-top: solid 1px #353a49;
+    padding: 30px 0;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        max-width: 700px;
+    }
+
+    .site-top {
+        height: auto;
+    }
+    
+    .site-text {
+        display: block;
+        text-align: center;
+    }
+
+    .left {
+        padding: 30px auto;
+    }
+
+    .bot-row {
+        flex-direction: column;
+        font-size: 14px;
+    }
+}

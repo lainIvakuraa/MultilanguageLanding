@@ -1,0 +1,54 @@
+.destination {
+    padding:0;
+    width:318px;
+    height:615px;
+    background-color: white;
+    margin:15px 0;
+}
+.destinationImage {
+    width:100%;
+}
+.destinationImageContainer {
+    height: 45%;
+    width:100%;
+    margin:0 auto;
+    padding: 0 auto;
+    background:url("../../style/img/destination.png") no-repeat;
+    background-size:cover;
+}
+.destinationTitleContainer h2 {
+    padding:10px;
+    text-align: left;
+    color: rgb(9,22,88);
+    font-size:25px;
+}
+.destinationBodyContainer {
+    padding:10px;
+    height: 33%;
+    margin:0 auto;
+    padding: 0 auto;
+}
+.destinationBodyContainer h4 {
+    text-align:left;
+    margin:0 auto;
+    padding: 0 auto;
+}
+.destinationBodyFooter {
+    padding: 0 15px;
+}
+.destinationBodyFooter hr {
+    margin:0;
+    border: 7px solid rgb(98,98,98);
+}
+.destinationBodyFooter p {
+    margin: 15px 0;
+}
+.destinationBodyFooter button {
+    margin:10px 0;
+}
+.budgetPlaces {
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    gap:10px;
+}
